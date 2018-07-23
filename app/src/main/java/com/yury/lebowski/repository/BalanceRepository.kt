@@ -1,5 +1,5 @@
 package com.yury.lebowski.repository
 
-class MoneyRepository {
-    fun getAmount() = 16.0
+class BalanceRepository {
+    fun getAmountInUniversal() = 16.0
 }
