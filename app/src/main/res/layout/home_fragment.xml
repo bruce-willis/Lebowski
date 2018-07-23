@@ -84,9 +84,21 @@
             android:layout_height="wrap_content"
             android:text="@string/future_operations"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="@+id/card_balance"
+            app:layout_constraintEnd_toEndOf="@id/card_balance"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/card_balance" />
+            app:layout_constraintTop_toBottomOf="@id/card_balance" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/ic_add_24dp"
+            android:focusable="true" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
