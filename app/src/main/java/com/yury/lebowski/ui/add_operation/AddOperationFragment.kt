@@ -32,7 +32,7 @@ class AddOperationFragment : Fragment() {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProviders.of(this).get(AddOperationViewModel::class.java)
+        viewModel = ViewModelProviders.of(this, operationType?.let { AddOperationViewModelFactory(it) }).get(AddOperationViewModel::class.java)
         // TODO: Use the ViewModel
     }
 

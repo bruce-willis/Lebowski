@@ -1,7 +1,8 @@
 package com.yury.lebowski.ui.add_operation
 
 import androidx.lifecycle.ViewModel;
+import com.yury.lebowski.models.OperationType
 
-class AddOperationViewModel : ViewModel() {
-    // TODO: Implement the ViewModel
+class AddOperationViewModel(private val operationType: OperationType) : ViewModel() {
+
 }
