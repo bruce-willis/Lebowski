@@ -10,6 +10,7 @@ import androidx.lifecycle.ViewModelProviders
 import com.yury.lebowski.R
 import com.yury.lebowski.databinding.HomeFragmentBinding
 import com.yury.lebowski.util.autoCleared
+import kotlinx.android.synthetic.main.home_fragment.*
 
 
 class HomeFragment : Fragment() {
@@ -29,6 +30,12 @@ class HomeFragment : Fragment() {
                 container,
                 false)
         return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        speedDial.inflate(R.menu.menu_speed_dial)
+        //speedDial.setOnActionSelectedListener { actionItem ->   }
     }
 
 
