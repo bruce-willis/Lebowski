@@ -33,6 +33,7 @@
     <!--add operation page-->
     <string name="name">Name</string>
     <string name="date">Date</string>
+    <string name="category">Category</string>
     <!--add operation page-->
 
     <!--Pages-->
