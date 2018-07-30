@@ -4,7 +4,6 @@ import com.yury.lebowski.models.CurrencyType
 import com.yury.lebowski.models.OperationType
 import com.yury.lebowski.models.Record
 import com.yury.lebowski.repository.BalanceRepository
-import com.yury.lebowski.repository.convertFromUniversal
 import com.yury.lebowski.service.calculateBalanceAfterOperations
 import org.junit.Test
 
