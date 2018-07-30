@@ -34,6 +34,8 @@
     <string name="name">Name</string>
     <string name="date">Date</string>
     <string name="category">Category</string>
+    <string name="account">Account</string>
+    <string name="add">Add</string>
     <!--add operation page-->
 
     <!--Pages-->
