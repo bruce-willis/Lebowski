@@ -30,7 +30,7 @@ class RateRepository {
             override fun onResponse(call: Call?, response: Response?) {
                 response?.body()?.string()?.let {
                     val data = JSONObject(it)
-                    rate = data.getDouble("USD_RUB")
+                    rate = data.getDouble(direction)
                 }
             }
 

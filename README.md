@@ -1,10 +1,11 @@
-Lebowski
+# Lebowski
 
 
 *** 
 
 ### Questions
-* `@JvmStatic` when creating `newInstance` of fragment
+* `@JvmStatic` when creating `newInstance` of fragment - only needed for java code
+* Right way to get `R.string` in ViewModel class
 
 ***
 
