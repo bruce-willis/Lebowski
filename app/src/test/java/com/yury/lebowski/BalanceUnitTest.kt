@@ -6,9 +6,8 @@ import com.yury.lebowski.models.Record
 import com.yury.lebowski.repository.BalanceRepository
 import com.yury.lebowski.repository.RateRepository
 import com.yury.lebowski.service.calculateBalanceAfterOperations
+import org.junit.Assert.assertEquals
 import org.junit.Test
-
-import org.junit.Assert.*
 
 /**
  * Example local unit test, which will execute on the development machine (host).
