@@ -1,5 +1,16 @@
 # Lebowski
 
+***
+
+* [Continuous Integration](#continuous-integration-dev-branch)
+* [Questions](#questions)
+* [Used libraries](#used-libraries)
+* [Used materials / Thanks](#used-materials-thanks)
+
+***
+
+### Continuous Integration (dev branch)
+* CircleCI [![CircleCI](https://circleci.com/gh/bruce-willis/Lebowski/tree/develop.svg?style=svg)](https://circleci.com/gh/bruce-willis/Lebowski/tree/develop)
 
 *** 
 

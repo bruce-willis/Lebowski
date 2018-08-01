@@ -3,8 +3,6 @@ package com.yury.lebowski
 import com.yury.lebowski.models.CurrencyType
 import com.yury.lebowski.models.OperationType
 import com.yury.lebowski.models.Record
-import com.yury.lebowski.repository.BalanceRepository
-import com.yury.lebowski.repository.RateRepository
 import com.yury.lebowski.service.calculateBalanceAfterOperations
 import org.junit.Assert.assertEquals
 import org.junit.Test
@@ -14,17 +12,10 @@ import org.junit.Test
  *
  * See [testing documentation](http://d.android.com/tools/testing).
  */
+
+private const val delta = 0.01
+
 class BalanceUnitTest {
-    private val delta = 0.01
-
-
-    @Test
-    fun convertToSecondaryCurrency_isCorrect() {
-        val mainCurrency = BalanceRepository().getAmountInUniversal()
-        val secondaryCurrency = mainCurrency * RateRepository().getLastOfflineRate(CurrencyType.Ruble)
-        assertEquals(1015.2, secondaryCurrency, delta)
-    }
-
     @Test
     fun simpleRecordIncomeDollar_isCorrect() {
         val startBalance: Double = 10.toDouble()
